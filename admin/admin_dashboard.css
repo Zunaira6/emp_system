@@ -1,0 +1,268 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.home-section{
+    position: relative;
+    background: #f5f5f5;
+    min-height: 100vh;
+
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.5s ease;
+  }
+  .sidebar.active ~ .home-section{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .home-section nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 240px);
+    left: 240px;
+    z-index: 100;
+    padding: 0 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+  }
+  .sidebar.active ~ .home-section nav{
+    left: 60px;
+    width: calc(100% - 60px);
+  }
+  .home-section nav .sidebar-button{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  nav .sidebar-button i{
+    font-size: 35px;
+    margin-right: 10px;
+  }
+  
+  .home-section nav .profile-details{
+    display: flex;
+    align-items: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    height: 50px;
+    min-width: 190px;
+    padding: 0 15px 0 2px;
+  }
+  nav .profile-details img{
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  nav .profile-details .admin_name{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+  nav .profile-details i{
+    font-size: 25px;
+    color: #333;
+  }
+  
+  .home-section .big-box{
+    position: relative;
+	padding-top: 80px;
+	display: flex;
+    justify-content:space-around;
+	flex-wrap: wrap;
+  }
+
+  .home-section .big-box .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+	  width: 18vw;
+	  height: 18vh;
+	  margin: 12px;
+    padding: 10px;
+	  border-radius: 10px;
+	  overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+  }
+
+  .home-section .big-box .box1,.box3,.box6,.box8{
+    background: hsl(96, 100%, 18%);
+  }
+  .home-section .big-box .box2,.box4,.box5,.box7{
+    background: #c6d016;
+
+  }
+  .icons{
+    filter: invert(1);
+  }
+
+  .home-section .big-box .box1 .right-box,.box2 .right-box,.box3 .right-box,.box4 .right-box,.box5 .right-box,.box6 .right-box,.box7 .right-box,.box8 .right-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+  }
+  .home-section .big-box .box1 .left-box,.box2 .left-box,.box3 .left-box,.box4 .left-box,.box5 .left-box,.box6 .left-box,.box7 .left-box,.box8 .left-box{
+    color:white;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.home-section .second-box{
+  position: relative;
+  padding: 10px;
+	display: flex;
+    justify-content:space-around;
+	flex-wrap: wrap;
+}
+.home-section .second-box .student-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  width: 50vw;
+  height: 35vh;
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+th{
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+td {
+  padding-top: 2px;
+  font-size: 16px;
+  text-align: center;
+}
+#btn1{
+  background-color:hsl(96, 100%, 18%);
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 4px;
+  width: 60px;
+  cursor: pointer;
+}
+
+#btn1:hover{
+  background-color:#fff;
+  color: hsl(96, 100%, 18%);
+  border: 1px solid hsl(96, 100%, 18%);
+  
+}
+.emp-img{
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.home-section .second-box .pie-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 25vw;
+  height: 35vh;
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 1240px) {
+    .home-section{
+      width: calc(100% - 60px);
+      left: 60px;
+    }
+    .sidebar.active ~ .home-section{
+      overflow: hidden;
+      left: 220px;
+    }
+    .home-section nav{
+      width: calc(100% - 60px);
+      left: 60px;
+    }
+    .sidebar.active ~ .home-section nav{
+      width: calc(100% - 220px);
+      left: 220px;
+    }
+  }
+
+
+@media (max-width: 700px) {
+    nav .sidebar-button .dashboard,
+    nav .profile-details .admin_name,
+    nav .profile-details i{
+      display: none;
+    }
+    .home-section nav .profile-details{
+      height: 50px;
+      min-width: 40px;
+    }
+   
+  }
+
+@media (max-width: 550px) {
+  
+  .sidebar.active ~ .home-section nav .profile-details{
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home-section .big-box .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+	width: 35vw;
+  height: 23vh;
+  }
+  .home-section .second-box .student-box{
+  width: 80vw;
+  }
+  .home-section .second-box .pie-box{
+  width: 80vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-section .second-box .student-box{
+  width: 80vw;
+  }
+  .home-section .second-box{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+  th{
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  td {
+    padding-top: 4px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
