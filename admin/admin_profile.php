@@ -20,7 +20,7 @@ $row_user=mysqli_fetch_array($run);
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Profile |EMS</title>
   <link rel="stylesheet" href="admin_dashboard.css">
   <link rel="stylesheet" href="admin_profile.css">
 </head>
