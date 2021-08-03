@@ -1,6 +1,11 @@
 <?php 
 
 session_start();
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+    header('location:../login.php');
+    exit;
+}
+?>
 include 'admin_sidebar.php';
 include '../db_connection.php';
 if(isset($_POST['password'])){
