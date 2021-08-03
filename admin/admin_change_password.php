@@ -19,7 +19,7 @@ if(isset($_POST['password'])){
     
     $newpassword = MD5($_POST['newpassword']);
     if($password==$oldpassword){
-        $update="UPDATE `admin` SET password='{$newpassword}' where `employee_id`='$employee_id' ";
+        $update="UPDATE `admin` SET password='{$newpassword}' where `admin_id`='$admin_id' ";
         $run_update=mysqli_query($conn,$update)  or die("Error");
         header('Location:../login.php');
     }
