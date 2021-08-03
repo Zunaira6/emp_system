@@ -16,7 +16,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="admin_dashboard.css">
-
+	<title>Dashboard |EMS</title>
   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
