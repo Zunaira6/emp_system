@@ -77,7 +77,7 @@
         <div class="input-container">
           <input type="text" name="admin_id" class="input" required />
           <label for="">Admin ID</label>
-          <span>Username</span>
+          <span>Admin ID</span>
         </div>
         <div class="input-container">
           <input type="password" name="password" class="input" id="password" required />
@@ -100,7 +100,7 @@
         <div class="input-container">
           <input type="text" name="employee_id" class="input" required />
           <label for="">Employee ID</label>
-          <span>Username</span>
+          <span>Employee ID</span>
         </div>
         <div class="input-container">
           <input type="password" name="password" class="input" id="password1"required />
