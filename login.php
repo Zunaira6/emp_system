@@ -76,7 +76,7 @@
         <h3 class="title">Admin Login</h3>
         <div class="input-container">
           <input type="text" name="admin_id" class="input" required />
-          <label for="">Username</label>
+          <label for="">Admin ID</label>
           <span>Username</span>
         </div>
         <div class="input-container">
@@ -99,7 +99,7 @@
         <h3 class="title">Employee Login</h3>
         <div class="input-container">
           <input type="text" name="employee_id" class="input" required />
-          <label for="">Username</label>
+          <label for="">Employee ID</label>
           <span>Username</span>
         </div>
         <div class="input-container">
