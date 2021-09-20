@@ -203,7 +203,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
     <footer class="footer">
       <span class="footer-title">EMS (Employee Management System)</span>
-      <p>Copyright @2021 <a href="#">Zunaira Hasnain & Maizah Kaleem</a>. All Rights Reserved.</p>
+      <p>Copyright @2021 <a href="#">Zunairah Hasnain & Maizah Kaleem</a>. All Rights Reserved.</p>
     </footer>
 
     <script>
