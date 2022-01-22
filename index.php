@@ -120,7 +120,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
             <img src="maizahlogo.png" width=300px height=300px>
           </div>
           <div class="info">
-            <h3>Maizah Kaleem</h3>
+            <h3>Rida Kaleem</h3>
             <p>Software Engineering Student @ NED University of Engineering & Technology</p>
             <a href="https://www.facebook.com/maizahk"><img class="social-icons" src="social-media-regular-icons/facebook.svg"></a>
             <a href="https://github.com/MaizahK"><img class="social-icons" src="social-media-regular-icons/github.svg"></a>
